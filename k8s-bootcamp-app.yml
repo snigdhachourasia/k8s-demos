@@ -34,5 +34,5 @@ spec:
     app: k8s-bootcamp # match the Pod label
   ports:
   - port: 8888
-    targetPort: 8080 # targetPort is optional if same as port number
+    targetPort: 8080 # TARGETPORT IS OPTIONAL IF SAME AS PORT NUMBER
     protocol: TCP
