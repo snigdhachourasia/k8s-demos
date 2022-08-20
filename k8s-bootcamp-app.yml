@@ -1,6 +1,6 @@
 ---
 apiVersion: apps/v1 # Note the changes from Pod file
-kind: Deployment # Note the change
+kind: Deployment # Note the changessss
 metadata:
   name: k8s-bootcamp-deploy
   labels:
