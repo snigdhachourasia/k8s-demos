@@ -15,5 +15,5 @@ spec:
   - name: nginx-container
     image: nginx:alpine
     ports:
-    - containerPort: 80
+    - containerPort: 80 #port
       protocol: TCP
