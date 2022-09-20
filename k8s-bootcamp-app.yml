@@ -14,7 +14,7 @@ spec:
     metadata:
       name: k8s-bootcamp-pod
       labels:
-        app: k8s-bootcamp # Pod label
+        app: k8s-bootcamp # Pod labelllll
     spec:
       containers:
       - name: k8s-bootcamp-container
