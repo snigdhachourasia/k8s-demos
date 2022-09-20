@@ -1,4 +1,4 @@
----
+--------------
 apiVersion: policy/v1beta1
 kind: PodSecurityPolicy
 metadata:
@@ -27,7 +27,7 @@ spec:
     rule: RunAsAny
   fsGroup:
     rule: RunAsAny
-  # Privilege Escalation
+  # Privilege Escalationnn
   allowPrivilegeEscalation: false
   defaultAllowPrivilegeEscalation: false
   # Capabilities
