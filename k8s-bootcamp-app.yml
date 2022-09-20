@@ -6,7 +6,7 @@ metadata:
   labels:
     app: k8s-bootcamp-app
 spec:
-  replicas: 1 # number of replicas
+  replicas: 1 # number of replicasssss
   selector: # selector
     matchLabels:
       app: k8s-bootcamp # this should match the Pod label in spec
